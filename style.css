@@ -1,0 +1,150 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.white{
+    color: white !important;
+}
+.modal{
+    text-align: center !important;
+}
+.modal-header,.modal-footer{
+    border: none;
+    color: white;
+}
+.form-control{
+    color: rgba(228, 15, 15, 0.1);
+    border-radius: 0px;
+    border: none;
+}
+.reset{
+    cursor: pointer;
+}
+.mask{
+    height: 100vh;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+}
+.mask.active{
+    height: 100vh;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.button{
+    color: white;
+    background-color:rgb(255, 255, 255, .1);
+    width: 150px;
+    border: solid white 3px;
+    border-radius: 0px;
+    margin: auto;
+}
+.button:hover{
+    color: rgb(204, 203, 203);
+}
+.button-can{
+    color: white;
+    background-color:rgba(255, 255, 255, 0.438);
+    width: 150px;
+    border: none;
+    border-radius: 0px;
+    margin: auto;
+}
+.button-sub{
+    color: white;
+    background-color:rgb(165, 165, 165);
+    width: 40px;
+    height: 36px;
+    border: 1px solid white;
+    border-radius: 0px;
+    margin: auto; 
+    position: absolute;
+    top: 366px;
+    right: 16px;
+    z-index: 1111;
+    padding: 3px 10px 10px 10px;
+
+}
+.button-sub-home-screen{
+    color: white;
+    background-color:rgb(165, 165, 165);
+    width: 40px;
+    height: 36px;
+    border: 1px solid white;
+    border-radius: 0px;
+    margin: auto; 
+    position: absolute;
+    top: 262px;
+    right: 16px;
+    z-index: 1111;
+    padding: 3px 10px 10px 10px;
+}
+svg{
+    width: 40px;
+}
+h1,p,h2{
+    color: white;
+}
+.icon-main{
+    width: auto;
+    height: 190px;
+    margin: auto;
+}
+img{
+    border-radius: 50%;
+}
+.top-layer{
+    width: 90%;
+    margin: 0 auto;
+    height: 75vh;
+    display: block;
+    padding-top: 50px;
+}
+.bottom-layer{
+    width: 90%;
+    margin: 0 auto;
+    height: 20vh;
+}
+.icons img{
+margin-bottom: 0px;
+height: 70px;
+width: auto;
+}
+.icons img:hover{
+   /* height: 20px; */
+    }
+.icons{
+    /* background-color: red; */
+}
+.power-icon{
+    margin-bottom: -5px;
+}
+.account-icons{
+    height: 60px;
+    width: auto;
+}
+.account-item{
+   /* background-color: rgba(104, 45, 45, 0.555); */
+    width: 200px;
+}
+.account-item:hover{
+    background-color: rgba(104, 45, 45, 0.555);
+     width: 200px;
+     transition: .3s;
+ }
+ .time{
+    font-size: 75px;
+    font-weight: 100;
+    margin-top: -20px;
+ }
+ .bg-dark{
+    background-color: rgba(0, 0, 0, 0) !important;
+ }
+ .modal-content{
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: none;
+
+ }
+ .modal-dialog{
+    
+ }

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Poppins:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Windows Training</title>
+  </head>
+  <body>
+    <section class="text-center text-sm-start">
+        <div class=" bg-image" style="background-image: url('/img/windowsbg.jpg'); background-repeat: none; background-size: cover;">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4);">
+            <div class="col-12">
+                <div class="row text-center top-layer">
+                    <img class="icon-main" src="/img/im-removebg-preview.png">
+                    <h1>Wil.Training</h1>
+                    <button class="btn button" data-bs-toggle="modal" data-bs-target="#enroll">Sign in</button>
+                  </div>
+    
+                  <div class="row bottom-layer">
+                    <div class="col-md-6 d-grid gap-3">
+                        <div class="row account-item align-items-end">
+                            <div class="col-5">
+                                <img class="account-icons" src="/img/im-removebg-preview.png">
+                            </div>
+                            <div class="col-1 px-1">
+                                <p>Shipping</p>
+                            </div>
+                        </div>
+                        <div class="row account-item align-items-end">
+                            <div class="col-5">
+                                <img class="account-icons" src="/img/im-removebg-preview.png">
+                            </div>
+                            <div class="col-1 px-1">
+                                <p>Z.Kinlaw</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-6 text-end icons align-middle">
+                        <div class=" row d-flex align-items-end h-100">
+                            <div class="col-9"></div>
+                            <div class="col-1 screen-icon">
+                                <img src="/img/screen.png">
+                            </div>
+                            <div class="col-1">
+                                <img src="/img/access.png">
+                            </div>
+                            <div class="col-1 power-icon">
+                                <img src="/img/power.png">
+                            </div>
+                        </div>
+                    
+                    </div>
+                  </div>
+            </div>
+              
+        </div>
+        </div>
+      </section>
+      
+
+
+      <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog bg-none">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body bg-dark">
+                <form>
+                    <img class="icon-main" src="/img/im-removebg-preview.png">
+                    <h1>Wil.Training</h1>
+            
+                    <div class="mb-3">
+                        <input type="password" placeholder="Password" class="form-control" id="password">
+                        <button type="button" class="btn button-sub-home-screen"><i class="bi bi-arrow-right"></i></button>
+                    </div>
+                </form>
+            </div><p class="reset"><a onclick="window.open('http://127.0.0.1:5500/resetpassword.html')">
+              "Reset New Password?"</a></p><div class="modal-footer">
+              <button type="button" class="btn button-can" data-bs-dismiss="modal">Cancel</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="/style.js"></script>
+
+
+  </body>
+</html>
